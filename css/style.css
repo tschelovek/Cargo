@@ -27,8 +27,8 @@
     }
 }
 
-.header__top {
-    background: none;
+.header {
+    background: url(/image/background/truckBackground.jpg);
 }
 
 .wideContainer {
@@ -69,12 +69,6 @@
     text-align: center;
 }
 
-.headerNavigation {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 .toRight50 {
     padding-left: 100px;
 }
@@ -98,7 +92,6 @@
 
 .services__links {
     border: none;
-    margin-bottom: 1rem;
 }
 
 .services__links a {
@@ -140,15 +133,8 @@
     color: #b9b5b5;
 }
 
-.footer__text {
-    text-align: justify;
-}
-
 .logoContainer {
-    justify-content: center;
-    font-size: 1.5rem;
-    display: flex;
-    height: 1.5rem;
+    font-size: 1.875rem;
 }
 
 .contactsList {
