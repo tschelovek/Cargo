@@ -11,9 +11,9 @@
 </head>
 <body>
 
-<header class="header">
+<header class="header container">
     <div class="container">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark header__top">
+        <nav class="navbar navbar-expand-md navbar-light header__top navbar_style">
             <a class="navbar-brand" href="#">
                 <div class="pb-3 logoContainer">
                     <img src="image/icons/logo.png" alt="logo" height="24px">
@@ -26,70 +26,110 @@
             <div class="collapse navbar-collapse flex-column align-items-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">LOGOUT</a>
+                        <a class="nav-link font-weight-bold" href="#">LOGOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">LANGUAGE</a>
+                        <a class="nav-link font-weight-bold" href="#">LANGUAGE</a>
                     </li>
                     <li class="nav-item">
                         <div class="d-flex smediaLinks_header">
-                            <a class="nav-link px-2" href="#">
+                            <a class="nav-link font-weight-bold px-2" href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="nav-link px-2" href="#">
+                            <a class="nav-link font-weight-bold px-2" href="#">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="nav-link px-2" href="#">
+                            <a class="nav-link font-weight-bold px-2" href="#">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
-<!--                        <ul class="navbar-nav d-inline smediaLinks_header">-->
-
-<!--                        </ul>-->
-<!--                        <ul class="d-flex smediaLinks_header">-->
-<!--                            <li>-->
-<!--                                <a class="nav-link" href="#">-->
-<!--                                    <i class="fab fa-facebook-f"></i>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <a class="nav-link" href="#">-->
-<!--                                    <i class="fab fa-instagram"></i>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <a class="nav-link" href="#">-->
-<!--                                    <i class="fab fa-twitter"></i>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
+                    </li>
+                    <li class="nav-item">
+                        <div class="position-relative">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                       aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0 searchButton" type="submit"><i
+                                        class="fas fa-search"></i></button>
+                            </form>
+                        </div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link font-weight-bold" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">COMPANY</a>
+                        <a class="nav-link font-weight-bold" href="#">COMPANY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GLOBAL COVERAGE</a>
+                        <a class="nav-link font-weight-bold" href="#">GLOBAL COVERAGE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">NEWS</a>
+                        <a class="nav-link font-weight-bold" href="#">NEWS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link font-weight-bold" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
-
         </nav>
     </div>
+    <div class="headerTitle">
+        <div class="row my-5">
+            <div class="col-lg-6 col-0">
+            </div>
+            <div class="col-lg-6 pt-5 text-center">
+                <span class="headerTitle__bigText">
+                    Ground, Air or Sea
+                </span>
+                <div class="headerTitle__smallText font-weight-bold text-uppercase">
+                    <span>
+                        we deliver your package in no-time
+                    </span>
+                </div>
+            </div>
+        </div>
 </header>
 
-<div class="wideContainer firstLook">
-
+<div class="container quickContacts">
+    <div class="row py-3">
+        <div class="col-md-3 col-sm-6 py-3">
+            <div class="media">
+                <img class="mr-3" src="image/icons/clock.png" alt="clock">
+                <div class="media-body quickContacts__text">
+                    <h5 class="mt-0 text-uppercase quickContacts__text">Opening hours</h5>
+                    Monday - Friday 09:00 - 18:00 <br>
+                    Saturday 09:00 - 14:00
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 py-3">
+            <div class="media">
+                <img class="mr-3" src="image/icons/phone.png" alt="phone">
+                <div class="media-body quickContacts__text">
+                    <h5 class="mt-0 text-uppercase quickContacts__text">Call us anytime</h5>
+                    1-999-134-7923 <br>
+                    2-888-648-1615
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 py-3">
+            <div class="media">
+                <img class="mr-3" src="image/icons/letter.png" alt="phone">
+                <div class="media-body quickContacts__text">
+                    <h5 class="mt-0 text-uppercase quickContacts__text">Email us</h5>
+                    nfo@kallyas-cargo.com <br>
+                    office@kallyas-cargo.com
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 py-3 align-self-center">
+            <a href="#" class="button text-uppercase p-3 font-weight-normal ">
+                Buy kallyas now
+            </a>
+        </div>
+    </div>
 </div>
 
 <div class="container welcome_s">
@@ -98,7 +138,7 @@
         <h3>KALLYAS CARGO</h3>
     </div>
     <div class="row mr-0">
-        <div class="col-md-4 pl-0 welcomeItem">
+        <div class="col-sm-4 pl-0 py-2 text-center welcomeItem">
             <picture class="mx-3">
                 <source srcset="image/transport/truck.jpg" media="(min-width: 768px)">
                 <img class="img-fluid" src="image/transport/md/truck.jpg" alt="transport trucks">
@@ -112,7 +152,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pl-0 welcomeItem">
+        <div class="col-sm-4 pl-0 py-2 text-center welcomeItem">
             <picture class="mx-3">
                 <source srcset="image/transport/plane.jpg" media="(min-width: 768px)">
                 <img class="img-fluid" src="image/transport/md/plane.jpg" alt="transport plane">
@@ -126,7 +166,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 pl-0 welcomeItem">
+        <div class="col-sm-4 pl-0 py-2 text-center welcomeItem">
             <picture class="mx-3">
                 <source srcset="image/transport/ship.jpg" media="(min-width: 768px)">
                 <img class="img-fluid" src="image/transport/md/ship.jpg" alt="transport ship">
@@ -184,7 +224,7 @@
     </div>
 </div>
 
-<div class="wideContainer mb-5 gallery_s">
+<div class="wideContainer gallery_s mb-">
     <div class="container">
         <div class="row pt-5 pb-4">
             <div class="col-lg-3 pb-5">
@@ -217,9 +257,9 @@
     </div>
 </div>
 
-<div class="container pt-5 services_s">
+<div class="container services_s pt-">
     <div class="row">
-        <div class="col-md-6 services">
+        <div class="col-md-6 pt-3 services">
             <h3>WHAT ARE YOU LOOKING FOR</h3>
             <p class="services__text">
                 Compellingly evisculate error-free e-commerce and cutting-edge best practices. Competently deploy
@@ -275,13 +315,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 requestForm">
+        <div class="col-md-6 pt-3 requestForm">
             <h4>REQUEST A QUICK QUOTE</h4>
             <form>
                 <div class="row">
                     <div class="col-lg-6 mb-3">
                         <label for="yourName">YOUR NAME</label>
-                        <input type="text" id="yourName" class="form-control" placeholder="Your name">
+                        <input type="text" id="yourName" class="form-control">
                     </div>
                     <div class="col-lg-6 mb-3">
                         <label for="subject">SUBJECT</label>
@@ -306,12 +346,73 @@
                     <label for="message">MESSAGE</label>
                     <textarea type="text" id="message" rows="10" class="form-control messageField"></textarea>
                 </div>
+                <div class="my-5">
+                    <a href="#" class="button text-uppercase p-3 font-weight-normal ">
+                        send message
+                    </a>
+                </div>
             </form>
         </div>
     </div>
 </div>
 
-<footer class="py-5 mt-5 container footer">
+<div class="container clientsAndNews_s">
+    <div class="row py-3">
+        <div class="col-lg-7 col-sm-12 mb-5">
+            <h5 class="text-uppercase mb-4">some of our clients</h5>
+            <div class="media">
+                <img class="align-self-end mr-3" src="image/icons/client.png" alt="client photo">
+                <div class="media-body">
+                    <p class="clientText font-italic p-4">Phosfluorescently leverage other's pandemic e-commerce via principle-centered
+                        relationships. Rapidiously whiteboard team building systems for mission-critical.</p>
+                    <h5 class="mt-0 text-uppercase font-weight-bold">Clara Sienfield</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <h5 class="text-uppercase mb-4">latest news</h5>
+            <ul class="list-unstyled">
+                <li class="media mb-3">
+                    <img class="mr-3" src="image/icons/news.png" alt="latest news">
+                    <div class="media-body newsText">
+                        <h5 class="mt-0 mb-1">Continually engage distributed infrastructures</h5>
+                        Collaboratively enhance out-of-the-box niche markets after bleeding-edge outsourcing. Credibly ...
+                    </div>
+                </li>
+                <li class="media mb-3">
+                    <img class="mr-3" src="image/icons/news.png" alt="latest news">
+                    <div class="media-body newsText">
+                        <h5 class="mt-0 mb-1">Continually engage distributed infrastructures</h5>
+                        Collaboratively enhance out-of-the-box niche markets after bleeding-edge outsourcing. Credibly ...
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="image/icons/news.png" alt="latest news">
+                    <div class="media-body newsText">
+                        <h5 class="mt-0 mb-1">Continually engage distributed infrastructures</h5>
+                        Collaboratively enhance out-of-the-box niche markets after bleeding-edge outsourcing. Credibly ...
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container quote_s">
+    <div class="quote d-flex justify-content-between py-5">
+        <div class="quote__text">
+            <h5>WE'RE READY TO COLLECT YOUR PACKAGE</h5>
+            Uniquely redefine accurate architectures vis-a-vis front-end alignments.
+        </div>
+        <a href="#" class="button text-uppercase p-3 font-weight-normal">
+            get a quote
+        </a>
+    </div>
+</div>
+
+<footer class="py-5 container footer">
     <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="d-flex justify-content-center align-items-center pb-3 logoContainer">

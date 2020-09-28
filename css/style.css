@@ -28,7 +28,29 @@
 }
 
 .header {
-    background: url(/image/background/truckBackground.jpg);
+    background: url(../image/background/truckBackground3.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.navbar_style {
+    background-color: rgba(185, 195, 205, .8);
+    z-index: 3;
+}
+
+.headerTitle{
+    color: #c1e726;
+}
+
+.headerTitle__bigText {
+    font-size: 3rem;
+}
+
+.searchButton {
+    position: absolute;
+    right: 10px;
+    border: none;
+    color: rgba(0,0,0,.5);
 }
 
 .wideContainer {
@@ -46,12 +68,12 @@
     height: 300px;
     object-fit: cover;
     position: relative;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .welcomeItem__body {
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
@@ -67,6 +89,30 @@
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    padding: 60px 0 60px;
+}
+
+.quickContacts {
+    background-color: #181834;
+    color: #eeeeee;
+}
+
+.quickContacts__text{
+    font-size: 0.8125rem;
+}
+
+.button {
+    background-color: #0d5195;
+    color: #eeeeee;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #eeeeee;
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 .toRight50 {
@@ -128,6 +174,14 @@
     height: 10rem;
 }
 
+.quote_s, .clientText {
+    background-color: #f8f8f8;
+}
+
+.newsText, .newsText h5 {
+    font-size: 0.8125rem;
+}
+
 .footer {
     background-color: #1c1c1c;
     color: #b9b5b5;
@@ -157,5 +211,9 @@
 @media (max-width: 577px) {
     .welcomeItem_second {
         justify-content: end;
+    }
+
+    .headerTitle__bigText {
+        font-size: 2rem;
     }
 }
